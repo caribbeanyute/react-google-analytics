@@ -1,4 +1,3 @@
-require('dotenv').config()
 import React, { useEffect } from 'react';
 import './App.css';
 import {
@@ -13,7 +12,7 @@ import ReactGA from 'react-ga';
 function App() {
 
   useEffect(() => {
-    ReactGA.initialize('UA-163102315-1');
+    ReactGA.initialize('UA-183478409-1');
     // To Report Page View 
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, [])
